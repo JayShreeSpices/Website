@@ -1,4 +1,11 @@
-/*Template Name: Fruitkha - Responsive Bootstrap4 Shop TemplateTemplate URI: Description: Bootstrap template for fruits or any other kind of shopAuthor: Imran HossainAuthor URI: https://imransdesign.com/Version: 1.0*/
+/*
+Template Name: Fruitkha - Responsive Bootstrap4 Shop Template
+Template URI: 
+Description: Bootstrap template for fruits or any other kind of shop
+Author: Imran Hossain
+Author URI: https://imransdesign.com/
+Version: 1.0
+*/
 /* -----------------------------------------------------------------------------
 
 # Base - Genral & Typography
@@ -542,6 +549,7 @@ nav.main-menu ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-right: -100%;
 }
 
 nav.main-menu ul li {
@@ -605,6 +613,7 @@ nav.main-menu > ul li:last-child {
 .site-logo {
   float: left;
   max-width: 150px;
+  margin-left: -21%;
 }
 
 ul.sub-menu li:last-child {
@@ -2080,6 +2089,7 @@ a.video-play-btn {
   content: "";
   background-color: #051922;
   opacity: 0.3;
+  border-radius: 10px;
 }
 
 .abt-section .abt-text {
@@ -2150,7 +2160,7 @@ a.video-play-btn {
   margin: 150px 0;
 }
 
-.feature-bg:after {
+/* .feature-bg:after {
   background-image: url(../img/feature-bg.jpg);
   position: absolute;
   right: 0;
@@ -2164,7 +2174,7 @@ a.video-play-btn {
   -webkit-box-shadow: 0 0 20px #cacaca;
   box-shadow: 0 0 20px #cacaca;
   border-bottom-left-radius: 5px;
-}
+} */
 
 .team-bg-1 {
   background-image: url(../img/team/team-1.jpg);
@@ -2200,6 +2210,9 @@ a.video-play-btn {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 10px;
+}
+.col-lg-7-main{
+  max-width: 100%;
 }
 
 .single-team-item h4 span {
