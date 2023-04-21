@@ -2806,8 +2806,6 @@ table.order-details tbody td {
 
 
 .about_top_box{
-  /* background: linear-gradient(120deg, rgba(194, 194, 194, 0.39) 50%, rgba(203, 203, 211, 0) 50%),
-   url("../pics/8.jpg"); */
   background: linear-gradient(to bottom right, #ffb9b92a, #ffb7b721, #ffdddd2f),
    url("/assets/img/top_image.jpg");
   background-size:cover;
@@ -2815,6 +2813,27 @@ table.order-details tbody td {
   background-attachment: fixed;
   height: 70vh;
 }
+
+.prod_top_box{
+  background: linear-gradient(to bottom right, #0000002a, #1f171721, #ffdddd2f),
+   url("/assets/img/prod_top.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 70vh;
+}
+
+
+.contact_top_box{
+  background: linear-gradient(to bottom right, #0000002a, #1f171721, #ffdddd2f),
+   url("/assets/img/top_image2.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 70vh;
+}
+
+
 
 .c_grid{
   display: grid;
@@ -2827,7 +2846,25 @@ table.order-details tbody td {
   grid-template-columns: 1fr 1fr;
 }
 
+.box3{
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
+.prod_box{
+  box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.144);
+  padding: 4vmax;
+  border-radius: 12px;
+}
+
+.prod_box:hover{
+  box-shadow:  none;
+  transition: 0.3s;
+}
+
+#thnk{
+	visibility: hidden;
+	opacity:0;
+}
 
 /* Menu */
 
@@ -2975,7 +3012,7 @@ table.order-details tbody td {
     background-attachment: scroll;
   }
 
-  .box2{
+  .box2, .box3{
     grid-gap: 2vmax;
     grid-template-columns: 1fr;
   }
