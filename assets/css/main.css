@@ -2783,8 +2783,8 @@ table.order-details tbody td {
 .logo_image{
   width: 11vmax; 
   /* height: 5vmax; */
-  padding: 15px; 
-  padding-left: 50px;
+  /* padding: 15px;  */
+  padding: 0 0 0 1vmax ;
 }
 
 .let_space{
@@ -3009,7 +3009,7 @@ table.order-details tbody td {
 
 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 700px) {
 
   hr{
     height: 2px;
@@ -3026,9 +3026,10 @@ table.order-details tbody td {
 
   .logo_image{
     width: 20vmax; 
-    height: 10vmax;
+    /* height: 10vmax; */
     /* padding: 15px;  */
     padding-left: 50px;
   }
 
 }
+
