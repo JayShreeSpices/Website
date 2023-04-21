@@ -3025,8 +3025,8 @@ table.order-details tbody td {
   }
 
   .logo_image{
-    width: 100vmax; 
-    /* height: 5vmax; */
+    width: 20vmax; 
+    height: 10vmax;
     /* padding: 15px;  */
     padding-left: 50px;
   }
