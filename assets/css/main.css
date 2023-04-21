@@ -2781,10 +2781,10 @@ table.order-details tbody td {
 /* top header */
 
 .logo_image{
-  width: 11vmax; 
+  width: 12vmax; 
   /* height: 5vmax; */
-  /* padding: 15px;  */
-  padding-left: 50px;
+  padding: 1vmax; 
+  padding-left: 5vmax;
 }
 
 .let_space{
@@ -3024,12 +3024,12 @@ table.order-details tbody td {
     grid-template-columns: 1fr;
   }
 
-  .logo_image{
+  /* .logo_image{
     width: 20vmax; 
-    /* height: 10vmax; */
-    /* padding: 15px;  */
+    height: 10vmax;
+    padding: 15px; 
     padding-left: 50px;
-  }
+  } */
 
 }
 
