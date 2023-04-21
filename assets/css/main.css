@@ -2780,6 +2780,13 @@ table.order-details tbody td {
 
 /* top header */
 
+.logo_image{
+  width: 11vmax; 
+  /* height: 5vmax; */
+  padding: 15px; 
+  padding-left: 50px;
+}
+
 .let_space{
   letter-spacing: 15%!important;
 }
@@ -3015,6 +3022,14 @@ table.order-details tbody td {
   .box2, .box3{
     grid-gap: 2vmax;
     grid-template-columns: 1fr;
+  }
+
+  .logo_image{
+    width: 20vmax; 
+    align-self: center;
+    /* height: 5vmax; */
+    /* padding: 15px;  */
+    padding-left: 50px;
   }
 
 }
