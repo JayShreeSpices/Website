@@ -3009,7 +3009,7 @@ table.order-details tbody td {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 300px) {
 
   hr{
     height: 2px;
