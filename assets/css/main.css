@@ -2780,6 +2780,27 @@ table.order-details tbody td {
 
 /* top header */
 
+.recipes_bttn{
+  background-color: transparent; 
+  border-color:rgba(255, 255, 255, 0.856); 
+  outline: none;
+  padding: 1vmax; 
+  color: white; 
+  font-size: 2vmax; 
+  font-weight: 700; 
+  border-radius: 2vmax;
+}
+
+.recipes_bttn:focus{
+  outline: none;
+}
+
+.recipes_bttn:hover{
+  background-color: rgba(0, 0, 0, 0.671);
+  color: rgb(255, 255, 255);
+  transition: 0.3s ease-in-out;
+}
+
 .logo_image{
   width: 12vmax; 
   /* height: 5vmax; */
