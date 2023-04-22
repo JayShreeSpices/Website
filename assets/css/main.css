@@ -1600,15 +1600,15 @@ div.owl-controls, .owl-controls div {
 
 ----------------------------------------------------------------------------- */
 .news-bg-1 {
-  background-image: url(../img/latest-news/news-bg-1.jpg);
+  background-image: url("/assets/img/paneer1.png");
 }
 
 .news-bg-2 {
-  background-image: url(../img/latest-news/news-bg-2.jpg);
+  background-image: url("/assets/img/paneer2.png");
 }
 
 .news-bg-3 {
-  background-image: url(../img/latest-news/news-bg-3.jpg);
+  background-image: url("/assets/img/paneer3.png");
 }
 
 .news-bg-4 {
@@ -3013,6 +3013,10 @@ table.order-details tbody td {
 
   hr{
     height: 2px;
+  }
+
+  .menu {    
+    font-size: 1.5vmax; 
   }
 
   .top_box{
