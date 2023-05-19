@@ -2870,6 +2870,10 @@ table.order-details tbody td {
   grid-gap: 2vmax;
 }
 
+.box1_2{
+  grid-template-columns: 1fr 2fr;
+}
+
 .box2{
   grid-template-columns: 1fr 1fr;
 }
@@ -3044,7 +3048,7 @@ table.order-details tbody td {
     background-attachment: scroll;
   }
 
-  .box2, .box3{
+  .box1_2, .box2, .box3{
     grid-gap: 2vmax;
     grid-template-columns: 1fr;
   }
