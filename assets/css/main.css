@@ -2781,8 +2781,8 @@ table.order-details tbody td {
 /* top header */
 
 .recipes_bttn{
-  background-color: transparent; 
-  border-color:rgba(255, 255, 255, 0.856); 
+  background-color: black; 
+  border-color:rgba(46, 46, 46, 0.856); 
   outline: none;
   padding: 1vmax; 
   color: white; 
@@ -2903,6 +2903,7 @@ table.order-details tbody td {
 .menu {    
   /* background:rgba(0, 0, 0, 0.705); */
   background-color: #1b1b1be6;
+  /* background-color: #4A5664; */
   /* background-color:#374B56; */
   position: fixed; 
   width: 100%;
